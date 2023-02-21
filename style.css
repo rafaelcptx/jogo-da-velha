@@ -1,0 +1,62 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  background-color: rgb(39, 39, 39);
+}
+
+#container {
+  margin: auto;
+  text-align: center;
+}
+
+.endGame {
+  position: absolute;
+  border-radius: 25px;
+  width: 460px;
+  height: 350px;
+  padding-top: 100px;
+  background-color: rgba(0, 0, 0, 0.95);
+  font-size: 60px;
+}
+
+#wrapper {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.square {
+  cursor: pointer;
+  border-radius: 25px;
+  margin: auto;
+  width: 130px;
+  height: 125px;
+  background-color: white;
+  box-shadow: 0.2em 10px 10px black;
+  transition: 0.2s;
+  font-size: 80px;
+}
+
+.square:hover {
+  width: 135px;
+  height: 130px;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 15px;
+  background-color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: rgb(161, 24, 0);
+}
