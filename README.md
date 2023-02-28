@@ -1,5 +1,5 @@
 # jogo-da-velha
-
+Acesse (deploy) : https://rafaelcptx.github.io/jogo-da-velha/
 
 
 https://user-images.githubusercontent.com/109367845/221991553-c19cbcae-df42-46f2-994e-7accbb86e3ec.mp4
